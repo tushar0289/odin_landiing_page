@@ -51,7 +51,7 @@ a {
     font-weight: 300;
 }
 
-.sign-up {
+.sign-up, .cta-container, .button-cta {
     background-color: #3882f6;
     color: white;
     padding: 8px 12px;
@@ -110,4 +110,23 @@ a {
     margin-top: 12px;
     font-size: 16px;
     font-weight: 600;
+}
+
+.cta {
+    padding: 80px 200px;
+}
+
+.cta-container {
+    border-radius: 8px;
+    padding: 40px 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-sign-up {
+    font-weight: 300;
+}
+
+.button-cta {
+    border: 1px solid white;
 }
