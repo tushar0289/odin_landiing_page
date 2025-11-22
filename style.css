@@ -8,6 +8,10 @@ body {
     padding: 0 200px;
 }
 
+.logo {
+    font-size: 24px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -18,6 +22,7 @@ body {
 .right-link {
     display: flex;
     gap: 16px;
+    align-items: center;
 }
 
 a {
@@ -85,6 +90,7 @@ a {
     justify-content: center;
     gap: 32px;
     margin-bottom: 80px;
+    flex-wrap: wrap;
 }
 
 .card a {
@@ -100,7 +106,7 @@ a {
 
 .quote-container {
     background-color: #e5e7eb;
-    padding: 72px 200px;
+    padding: 72px 264px;
 }
 
 .quote {
@@ -126,6 +132,7 @@ a {
     padding: 40px 64px;
     display: flex;
     justify-content: space-between;
+    margin-top: 0;
 }
 
 .cta-sign-up {
