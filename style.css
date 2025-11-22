@@ -68,6 +68,11 @@ a {
     align-items: center;
 }
 
+.sky {
+    font-weight: 300;
+    margin-top: 8px;
+}
+
 .random-text {
     text-align: center;
     font-size: 24px;
