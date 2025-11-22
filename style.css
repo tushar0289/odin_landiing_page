@@ -130,3 +130,10 @@ a {
 .button-cta {
     border: 1px solid white;
 }
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 32px 0;
+}
